@@ -76,9 +76,9 @@ const SignIn = () => {
         {/* Optional Signup Link */}
         <p className="text-center text-gray-600 mt-6">
           Don’t have an account?{" "}
-          <a href="/signup" className="text-indigo-600 hover:underline">
+          <Link to="/signup" className="text-indigo-600 hover:underline">
             Sign Up
-          </a>
+          </Link>
         </p>
       </div>
     </div>
