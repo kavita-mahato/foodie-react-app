@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
@@ -59,9 +60,9 @@ const SignIn = () => {
               <input type="checkbox" className="h-4 w-4 text-indigo-600 focus:ring-indigo-400 rounded" />
               Remember me
             </label>
-            <a href="#" className="text-indigo-600 hover:underline">
+            <Link href="#" className="text-indigo-600 hover:underline">
               Forgot Password?
-            </a>
+            </Link>
           </div>
 
           {/* Submit Button */}

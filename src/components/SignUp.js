@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   const [fullName, setFullName] = useState("");
@@ -105,9 +106,9 @@ const SignUp = () => {
             />
             <label htmlFor="terms">
               I agree to the{" "}
-              <a href="#" className="text-pink-600 hover:underline">
+              <Link href="#" className="text-pink-600 hover:underline">
                 Terms & Conditions
-              </a>
+              </Link>
             </label>
           </div>
 
@@ -123,9 +124,9 @@ const SignUp = () => {
         {/* Sign In Link */}
         <p className="text-center text-gray-600 mt-6">
           Already have an account?{" "}
-          <a href="/signin" className="text-pink-600 hover:underline">
+          <Link to="/signin" className="text-pink-600 hover:underline">
             Sign In
-          </a>
+          </Link>
         </p>
       </div>
     </div>
