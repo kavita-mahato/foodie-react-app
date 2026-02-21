@@ -4,7 +4,7 @@ const User = (props) => {
     const [userInfo, setUserInfo] = useState({
         name: "Kavita Mahato",
         location: "Jharkhand, India",
-        avatar_url: "http://dummyphoto.jpg",
+        avatar_url: "",
     });
 
     const getUserInfo = async () => {
